@@ -91,7 +91,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': 3306,
         'USER': 'root',
-        'PASSWORD': 'qqqqqqqq',
+        'PASSWORD': 'JingJing0731.',
         'NAME': 'exchangecode'
     }
 }
