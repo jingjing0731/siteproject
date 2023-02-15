@@ -196,3 +196,48 @@ CORS_ALLOW_HEADERS = ('*')
 # 允许携带cookie
 CORS_ALLOW_CREDENTIALS = True
 
+# 日志配置
+BASE_LOG_DIR = os.path.join(BASE_DIR, 'log')
+LOGGING = {
+    'version': 1,
+    # 设置已存在的logger不失效
+    'disable_existing_loggers': False,
+    # 过滤器（可以用来过滤记录的日志级别或者改变他）
+    'filters': {},
+    # 格式化器
+    'formatters': {
+        'standard': {
+            'format': '[%(asctime)s][%(levelname)s][%(filename)s:%(lineno)d:%(funcName)s]：%(message)s',
+            'datefmt': '%Y-%m-%d %H:%M:%S'
+        },
+        'simple':{
+            'format':'[%(asctime)s][%(levelname)s]：%(message)s',
+            'datefmt': '%Y-%m-%d %H:%M:%S'
+        }
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
+        'default': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': os.path.join(BASE_LOG_DIR, 'debug.log'),
+            'maxBytes': 1024 * 1024 * 50,  # 日志大小50M
+            'backupCount': 5,
+            'formatter': 'standard',
+            'encoding': 'utf-8',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'default'],
+            'level': 'INFO',
+            'propagate': True
+        },
+    },
+}
+
+

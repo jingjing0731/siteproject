@@ -1,0 +1,66 @@
+[2023-02-15 17:38:39][INFO][autoreload.py:677:run_with_reloader]：Watching for file changes with StatReloader
+[2023-02-15 17:38:39][INFO][teacher.py:13:TeacherViewSet]：info 测试
+[2023-02-15 17:38:39][WARNING][teacher.py:14:TeacherViewSet]：warning 测试
+[2023-02-15 17:38:39][ERROR][teacher.py:15:TeacherViewSet]：error 测试
+[2023-02-15 17:39:01][INFO][basehttp.py:187:log_message]："GET /code/teacher/?page=1 HTTP/1.1" 200 1569
+[2023-02-15 17:39:55][INFO][basehttp.py:187:log_message]："GET /code/teacher/?id=2 HTTP/1.1" 200 237
+[2023-02-15 17:39:55][INFO][basehttp.py:187:log_message]："GET /code/school/ HTTP/1.1" 200 330
+[2023-02-15 17:39:55][INFO][basehttp.py:187:log_message]："GET /code/area/ HTTP/1.1" 200 198
+[2023-02-15 17:39:59][INFO][basehttp.py:187:log_message]："PUT /code/teacher/2/ HTTP/1.1" 200 160
+[2023-02-15 17:46:22][INFO][autoreload.py:677:run_with_reloader]：Watching for file changes with StatReloader
+[2023-02-15 17:46:22][INFO][teacher.py:13:TeacherViewSet]：info 测试
+[2023-02-15 17:46:22][WARNING][teacher.py:14:TeacherViewSet]：warning 测试
+[2023-02-15 17:46:22][ERROR][teacher.py:15:TeacherViewSet]：error 测试
+[2023-02-15 17:46:22][INFO][teacher.py:13:TeacherViewSet]：info 测试
+[2023-02-15 17:46:22][WARNING][teacher.py:14:TeacherViewSet]：warning 测试
+[2023-02-15 17:46:22][ERROR][teacher.py:15:TeacherViewSet]：error 测试
+[2023-02-15 17:47:03][INFO][autoreload.py:677:run_with_reloader]：Watching for file changes with StatReloader
+[2023-02-15 17:47:03][INFO][teacher.py:13:TeacherViewSet]：info 测试
+[2023-02-15 17:47:03][WARNING][teacher.py:14:TeacherViewSet]：warning 测试
+[2023-02-15 17:47:03][ERROR][teacher.py:15:TeacherViewSet]：error 测试
+[2023-02-15 17:47:50][INFO][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 200 434
+[2023-02-15 17:48:10][INFO][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 200 434
+[2023-02-15 17:48:20][INFO][basehttp.py:187:log_message]："POST /code/login/ HTTP/1.1" 200 538
+[2023-02-15 17:48:53][INFO][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 200 434
+[2023-02-15 17:49:04][INFO][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 200 434
+[2023-02-15 17:49:16][INFO][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 200 223
+[2023-02-15 17:49:29][INFO][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 200 223
+[2023-02-15 17:49:46][INFO][basehttp.py:187:log_message]："POST /code/login/ HTTP/1.1" 200 538
+[2023-02-15 17:50:00][INFO][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 200 223
+[2023-02-15 17:50:20][INFO][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 200 313
+[2023-02-15 17:50:35][INFO][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 200 124
+[2023-02-15 17:52:27][INFO][autoreload.py:677:run_with_reloader]：Watching for file changes with StatReloader
+[2023-02-15 17:52:27][INFO][autoreload.py:677:run_with_reloader]：Watching for file changes with StatReloader
+[2023-02-15 17:52:27][INFO][teacher.py:13:TeacherViewSet]：info 测试
+[2023-02-15 17:52:27][WARNING][teacher.py:14:TeacherViewSet]：warning 测试
+[2023-02-15 17:52:27][ERROR][teacher.py:15:TeacherViewSet]：error 测试
+[2023-02-15 17:52:27][INFO][teacher.py:13:TeacherViewSet]：info 测试
+[2023-02-15 17:52:27][WARNING][teacher.py:14:TeacherViewSet]：warning 测试
+[2023-02-15 17:52:27][ERROR][teacher.py:15:TeacherViewSet]：error 测试
+[2023-02-15 17:52:33][WARNING][log.py:241:log_response]：Bad Request: /code/teacher/
+[2023-02-15 17:52:33][WARNING][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 400 57
+[2023-02-15 17:53:07][WARNING][log.py:241:log_response]：Bad Request: /code/teacher/
+[2023-02-15 17:53:07][WARNING][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 400 134
+[2023-02-15 17:53:20][WARNING][log.py:241:log_response]：Bad Request: /code/teacher/
+[2023-02-15 17:53:20][WARNING][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 400 57
+[2023-02-15 18:02:53][INFO][autoreload.py:266:trigger_reload]：/Users/linjing.che/project/pyproject/siteproject/siteproject/settings.py changed, reloading.
+[2023-02-15 18:02:54][INFO][autoreload.py:677:run_with_reloader]：Watching for file changes with StatReloader
+[2023-02-15 18:02:54][INFO][autoreload.py:677:run_with_reloader]：Watching for file changes with StatReloader
+[2023-02-15 18:02:54][INFO][teacher.py:13:TeacherViewSet]：info 测试
+[2023-02-15 18:02:54][WARNING][teacher.py:14:TeacherViewSet]：warning 测试
+[2023-02-15 18:02:54][ERROR][teacher.py:15:TeacherViewSet]：error 测试
+[2023-02-15 18:02:54][INFO][teacher.py:13:TeacherViewSet]：info 测试
+[2023-02-15 18:02:54][WARNING][teacher.py:14:TeacherViewSet]：warning 测试
+[2023-02-15 18:02:54][ERROR][teacher.py:15:TeacherViewSet]：error 测试
+[2023-02-15 18:02:58][ERROR][exceptionhandel.py:7:my_exception_handler]：Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/linjing.che/project/pyproject/siteproject/exchangecode/common/views.py", line 7, in create
+    ret = super().create(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/rest_framework/mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/rest_framework/serializers.py", line 235, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'area': [ErrorDetail(string='无效主键 “10” － 对象不存在。', code='does_not_exist')]}
+
+[2023-02-15 18:02:58][INFO][basehttp.py:187:log_message]："POST /code/teacher/ HTTP/1.1" 200 124
